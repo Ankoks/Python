@@ -4,6 +4,7 @@ import sys
 import psutil
 import shutil
 
+
 def duplicate_file(file_name):
     if os.path.isfile(file_name):
         new_file_name = file_name + '.duplicate'
